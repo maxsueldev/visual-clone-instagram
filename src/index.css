@@ -1,6 +1,12 @@
+@font-face {
+  font-family: SegoeUI;
+  src: url('./font/SegoeUI.ttf');
+} 
+
 :root {
   --gray-color: #EFEFEF;
   --dark-gray-color: #FAFAFA;
+  --white-color: #FFFFFF;
 }
 
 * {
@@ -12,4 +18,5 @@
 body {
   width: 100%;
   height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
 }

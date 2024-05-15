@@ -4,9 +4,9 @@ import commentImage from '../../../img/feed/comment.svg';
 import shareImage from '../../../img/feed/share.svg';
 import saveImage from '../../../img/feed/save.svg';
 
-import { PublicationContainer, Header, ContentHeader, PerfilImage, PerfilName, DotsOptions, Content, Footer, Icons, Description, Comments } from './style';
+import { PublicationContainer, Header, ContentHeader, PerfilImage, PerfilName, DotsOptions, Content, Footer, Icons, Description, Comments, Translation, CommentsView } from './style';
 
-function Publication({ imageSrc, name, content, likesValue, description, commentsValue, datePostage }) {
+function Publication({ imageSrc, name, content, likesValue, description, commentsValue }) {
     return (
         <PublicationContainer>
             <Header>
@@ -29,12 +29,12 @@ function Publication({ imageSrc, name, content, likesValue, description, comment
                     <img src={saveImage} alt="save icon" />
                 </Icons>
                 <Description>
-                    <p>{likesValue} curtidas</p>
-                    <p>{name} {description}</p>
+                    <p><b>{likesValue} curtidas</b></p>
+                    <p><b>{name}</b> {description}</p>
+                    <Translation><b>Ver tradução</b></Translation>
                 </Description>
                 <Comments>
-                    <p>Ver todos os {commentsValue} comentários</p>
-                    <p>Há {datePostage} . <b>Ver tradução</b></p>
+                    <CommentsView>Ver todos os {commentsValue} comentários</CommentsView>
                 </Comments>
             </Footer>
         </PublicationContainer>

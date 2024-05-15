@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Stories from './components/Stories';
 import Feed from './components/Feed';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Stories />
       <Feed />
+      <Footer />
     </>
   )
 }

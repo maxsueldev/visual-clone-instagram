@@ -55,11 +55,23 @@ const Icons = styled.div`
 `;
 
 const Description = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 10px;
 
 `;
 
 const Comments = styled.div`
-
+    cursor: pointer;
 `;
 
-export { PublicationContainer, Header, ContentHeader, PerfilImage, PerfilName, DotsOptions, Content, Footer, Icons, Description, Comments };
+const Translation = styled.p`
+    font-size: 13px;
+`;
+
+const CommentsView = styled.p`
+    color: #808080;
+`;
+
+export { PublicationContainer, Header, ContentHeader, PerfilImage, PerfilName, DotsOptions, Content, Footer, Icons, Description, Comments, Translation, CommentsView };
