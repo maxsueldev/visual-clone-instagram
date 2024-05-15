@@ -9,12 +9,12 @@ const FooterContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid var(--gray-color);
-    padding: 16px 0;
+    padding: 10px 14px;
     // margin-top: 180px;
 `;
 
 const ProfileImage = styled.img`
-    width: 32px;
+    width: 28px;
     border-radius: 50%;
 `;
 

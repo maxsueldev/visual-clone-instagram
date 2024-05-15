@@ -1,7 +1,7 @@
 import { HeaderContainer, InstagramWordmark, IconsContainer, PublishIcon, HeartImage } from './style';
 
 import wordmarkImage from '../../img/header/instagram-wordmark.svg';
-import publishIcon from '../../img/header/publishIcon.svg';
+import publishIcon from '../../img/header/post.png';
 import heartImage from '../../img/header/heart.svg';
 
 function Header() {

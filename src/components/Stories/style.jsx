@@ -7,7 +7,7 @@ const StoriesContainer = styled.div`
     border-top: 2px solid var(--gray-color);
     border-bottom: 2px solid var(--gray-color);
     padding: 10px 18px;
-    overflow: auto;
+    overflow-x: scroll;
 `;
 
 export { StoriesContainer };  
